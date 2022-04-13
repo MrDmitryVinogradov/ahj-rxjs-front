@@ -5,7 +5,7 @@ import { ajax } from 'rxjs/ajax';
 
 export default class Polling {
   constructor() {
-    this.url = 'https://ahj-rxjs.herokuapp.com/';
+    this.url = 'https://ahj-rxjs.herokuapp.com';
     this.time = new Date().getTime();
   }
 
